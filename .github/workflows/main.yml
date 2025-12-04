@@ -2,7 +2,7 @@ name: kareem-mohamed-2023040177
 
 on:
   push:
-    branches: [ main ]
+    branches:  main 
 
 jobs:
   build-and-push:
@@ -19,4 +19,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kareem-mohamed-2023040177:latest
+          tags: ${{ secrets.DOCKERHUBUSERNAME }}/kareem-mohamed-2023040177
